@@ -1,6 +1,5 @@
 {
-  "name": "language-hdl",
-  "main": "./lib/language-hdl",
+  "name": "lancelot-language-hdl",
   "version": "0.1.0",
   "description": "The HDL language for the nand2tetris course, includes syntax highlighting and snippets of the existing chips.",
   "keywords": [
@@ -17,5 +16,5 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
+  }
 }
