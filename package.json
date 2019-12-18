@@ -1,7 +1,7 @@
 {
   "name": "language-hdl",
   "main": "./lib/language-hdl",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "The HDL language for the nand2tetris course, includes syntax highlighting and snippets of the existing chips.",
   "keywords": [
       "syntax",
