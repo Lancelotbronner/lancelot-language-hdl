@@ -1,13 +1,13 @@
 {
   "name": "lancelot-language-hdl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The HDL language for the nand2tetris course, includes syntax highlighting and snippets of the existing chips.",
   "keywords": [
-      "syntax",
-      "highlighting",
-      "grammar",
-      "hdl",
-      "nand2tetris"
+    "syntax",
+    "highlighting",
+    "grammar",
+    "hdl",
+    "nand2tetris"
   ],
   "activationCommands": {
     "atom-workspace": "language-hdl:toggle"
