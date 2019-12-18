@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "language-hdl:toggle"
   },
-  "repository": "https://github.com/atom/language-hdl",
+  "repository": "https://github.com/Lancelotbronner/lancelot-language-hdl",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
