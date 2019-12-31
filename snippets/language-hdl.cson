@@ -4,168 +4,168 @@
     #####
     Add16:
         prefix: 'add16'
-        body: 'Add16(a= ,b= ,out= );'
+        body: 'Add16(a=, b=, out=);'
     ALU:
         prefix: 'alu'
-        body: 'ALU(x= ,y= ,zx= ,nx= ,zy= ,ny= ,f= ,no= ,out= ,zr= ,ng= );'
+        body: 'ALU(x=, y=, zx=, nx=, zy=, ny=, f=, no=, out=, zr=, ng=);'
     And16:
         prefix: 'and16'
-        body: 'And16(a= ,b= ,out= );'
+        body: 'And16(a=, b=, out=);'
     And:
         prefix: 'and'
-        body: 'And(a= ,b= ,out= );'
+        body: 'And(a=, b=, out=);'
     ARegister:
         prefix: 'aregister'
-        body: 'ARegister(in= ,load= ,out= );'
+        body: 'ARegister(in=, load=, out=);'
 
     #####
     # B #
     #####
     Bit:
         prefix: 'bit'
-        body: 'Bit(in= ,load= ,out= );'
+        body: 'Bit(in=, load=, out=);'
 
     #####
     # C #
     #####
     CPU:
         prefix: 'cpu'
-        body: 'CPU(inM= ,instruction= ,reset= ,outM= ,writeM= ,addressM= ,pc= );'
+        body: 'CPU(inM=, instruction=, reset=, outM=, writeM=, addressM=, pc=);'
 
     #####
     # D #
     #####
     DFF:
         prefix: 'dff'
-        body: 'DFF(in= ,out= );'
+        body: 'DFF(in=, out=);'
     DMux4Way:
         prefix: 'dmux4way'
-        body: 'DMux4Way(in= ,sel= ,a= ,b= ,c= ,d= );'
+        body: 'DMux4Way(in=, sel=, a=, b=, c=, d=);'
     DMux8Way:
         prefix: 'dmux8way'
-        body: 'DMux8Way(in= ,sel= ,a= ,b= ,c= ,d= ,e= ,f= ,g= ,h= );'
+        body: 'DMux8Way(in=, sel=, a=, b=, c=, d=, e=, f=, g=, h=);'
     DMux:
         prefix: 'dmux'
-        body: 'DMux(in= ,sel= ,a= ,b= );'
+        body: 'DMux(in=, sel=, a=, b=);'
     DRegister:
         prefix: 'dregister'
-        body: 'DRegister(in= ,load= ,out= );'
+        body: 'DRegister(in=, load=, out=);'
 
     #####
     # F #
     #####
     FullAdder:
         prefix: 'fulladder'
-        body: 'FullAdder(a= ,b= ,c= ,sum= ,carry= );'
+        body: 'FullAdder(a=, b=, c=, sum=, carry=);'
 
     #####
     # H #
     #####
     HalfAdder:
         prefix: 'halfadder'
-        body: 'HalfAdder(a= ,b= ,sum= , carry= );'
+        body: 'HalfAdder(a=, b=, sum=,  carry=);'
 
     #####
     # I #
     #####
     Inc16:
         prefix: 'inc16'
-        body: 'Inc16(in= ,out= );'
+        body: 'Inc16(in=, out=);'
 
     #####
     # K #
     #####
     Keyboard:
         prefix: 'keyboard'
-        body: 'Keyboard(out= );'
+        body: 'Keyboard(out=);'
 
     #####
     # M #
     #####
     Memory:
         prefix: 'memory'
-        body: 'Memory(in= ,load= ,address= ,out= );'
+        body: 'Memory(in=, load=, address=, out=);'
     Mux16:
         prefix: 'mux16'
-        body: 'Memory(in= ,load= ,address= ,out= );'
+        body: 'Mux16(a=, b=, sel=, out=);'
     Mux4Way16:
         prefix: 'mux4way16'
-        body: 'Mux4Way16(a= ,b= ,c= ,d= ,sel= ,out= );'
+        body: 'Mux4Way16(a=, b=, c=, d=, sel=, out=);'
     Mux8Way16:
         prefix: 'mux8way16'
-        body: 'Mux8Way16(a= ,b= ,c= ,d= ,e= ,f= ,g= ,h= ,sel= ,out= );'
+        body: 'Mux8Way16(a=, b=, c=, d=, e=, f=, g=, h=, sel=, out=);'
     Mux:
         prefix: 'mux'
-        body: 'Mux(a= ,b= ,sel= ,out= );'
+        body: 'Mux(a=, b=, sel=, out=);'
 
     #####
     # N #
     #####
     Nand:
         prefix: 'nand'
-        body: 'Nand(a= ,b= ,out= );'
+        body: 'Nand(a=, b=, out=);'
     Not16:
         prefix: 'not16'
-        body: 'Not16(in= ,out= );'
+        body: 'Not16(in=, out=);'
     Not:
         prefix: 'not'
-        body: 'Not(in= ,out= );'
+        body: 'Not(in=, out=);'
 
     #####
     # O #
     #####
     Or16:
         prefix: 'or16'
-        body: 'Or16(a= ,b= ,out= );'
+        body: 'Or16(a=, b=, out=);'
     Or:
         prefix: 'or'
-        body: 'Or(a= ,b= ,out= );'
+        body: 'Or(a=, b=, out=);'
     Or8Way:
         prefix: 'or8way'
-        body: 'Or8Way(in= ,out= );'
+        body: 'Or8Way(in=, out=);'
 
     #####
     # P #
     #####
     PC:
         prefix: 'pc'
-        body: 'PC(in= ,load= ,inc= ,reset= ,out= );'
+        body: 'PC(in=, load=, inc=, reset=, out=);'
 
     #####
     # R #
     #####
     RAM16K:
         prefix: 'ram16k'
-        body: 'RAM16K(in= ,load= ,address= ,out= );'
+        body: 'RAM16K(in=, load=, address=, out=);'
     RAM4K:
         prefix: 'ram4k'
-        body: 'RAM4K(in= ,load= ,address= ,out= );'
+        body: 'RAM4K(in=, load=, address=, out=);'
     RAM512:
         prefix: 'ram512'
-        body: 'RAM512(in= ,load= ,address= ,out= );'
+        body: 'RAM512(in=, load=, address=, out=);'
     RAM64:
         prefix: 'ram64'
-        body: 'RAM64(in= ,load= ,address= ,out= );'
+        body: 'RAM64(in=, load=, address=, out=);'
     RAM8:
         prefix: 'ram8'
-        body: 'RAM8(in= ,load= ,address= ,out= );'
+        body: 'RAM8(in=, load=, address=, out=);'
     Register:
         prefix: 'register'
-        body: 'Register(in= ,load= ,out= );'
+        body: 'Register(in=, load=, out=);'
     ROM32K:
         prefix: 'rom32k'
-        body: 'ROM32K(address= ,out= );'
+        body: 'ROM32K(address=, out=);'
 
     #####
     # S #
     #####
     Screen:
         prefix: 'screen'
-        body: 'Screen(in= ,load= ,address= ,out= );'
+        body: 'Screen(in=, load=, address=, out=);'
 
     #####
     # X #
     #####
     Xor:
         prefix: 'xor'
-        body: 'Xor(a= ,b= ,out= );'
+        body: 'Xor(a=, b=, out=);'

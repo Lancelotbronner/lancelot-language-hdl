@@ -1,7 +1,38 @@
 {
-  "name": "lancelot-language-hdl",
-  "version": "0.2.0",
+  "_from": "https://www.atom.io/api/packages/lancelot-language-hdl/versions/0.2.0/tarball",
+  "_id": "lancelot-language-hdl@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-PTM37EQaHKWichvTaqZgvy+QoZjBUtNyaV1dWh4t2J49RJb3I+REu07SKVaLO3zAJPivqUfKBjFmqt3rt6K7Jw==",
+  "_location": "/lancelot-language-hdl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/lancelot-language-hdl/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/lancelot-language-hdl/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/lancelot-language-hdl/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/lancelot-language-hdl/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/lancelot-language-hdl/versions/0.2.0/tarball",
+  "_shasum": "dd82bbe9d6afbc22bdbaa45a8500b46a90ade3e3",
+  "_spec": "https://www.atom.io/api/packages/lancelot-language-hdl/versions/0.2.0/tarball",
+  "_where": "/private/var/folders/5c/g_237lyn5v13n6sdxnvl63p00000gs/T/apm-install-dir-1191118-36362-485ve5.fk722",
+  "activationCommands": {
+    "atom-workspace": "language-hdl:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/Lancelotbronner/lancelot-language-hdl/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "The HDL language for the nand2tetris course, includes syntax highlighting and snippets of the existing chips.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Lancelotbronner/lancelot-language-hdl#readme",
   "keywords": [
     "syntax",
     "highlighting",
@@ -9,12 +40,11 @@
     "hdl",
     "nand2tetris"
   ],
-  "activationCommands": {
-    "atom-workspace": "language-hdl:toggle"
-  },
-  "repository": "https://github.com/Lancelotbronner/lancelot-language-hdl",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+  "name": "lancelot-language-hdl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lancelotbronner/lancelot-language-hdl.git"
+  },
+  "version": "0.2.0"
 }

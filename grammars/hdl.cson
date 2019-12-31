@@ -3,6 +3,9 @@ name: 'HDL'
 fileTypes: [ 'hdl' ]
 limitLineLength: false
 
+comments:
+    start: '// '
+
 patterns: [
     { include: '#commentline' },
     { include: '#commentblock' },
@@ -109,6 +112,6 @@ repository:
     },
     commentblock: {
         name: 'comment.block.documentation'
-        begin: '/\\*\\*'
+        begin: '/\\*'
         end: '\\*/'
     }
